@@ -1,10 +1,10 @@
-package com.zybooks.workingwithdata.nasa
+package com.zybooks.workingwithdata
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class `MarsPhoto.kt`(
+data class MarsPhoto(
     val id: Int,
     val imgSrc: String,
     val roverName: String,
